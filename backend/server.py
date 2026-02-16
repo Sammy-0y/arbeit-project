@@ -760,8 +760,12 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
     return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
 
 # Phase 4: File storage setup
-UPLOAD_DIR = Path("/app/backend/uploads")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+UPLOAD_DIR = BASE_DIR / "uploads"
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+
 
 async def save_cv_file(file: UploadFile, candidate_id: str) -> str:
     """Save uploaded CV file and return URL"""
