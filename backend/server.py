@@ -25,7 +25,7 @@ import pdfplumber
 from docx import Document as DocxDocument
 
 # Import notification service
-from notification_service import (
+from backend.notification_service import (
     send_email,
     get_new_job_email_template,
     get_candidate_status_change_email_template,
