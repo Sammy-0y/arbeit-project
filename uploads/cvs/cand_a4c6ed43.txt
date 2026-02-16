@@ -1,0 +1,50 @@
+
+EMILY ZHANG
+Senior Product Manager
+
+Email: emily.zhang@example.com
+Phone: +1 415-555-9876
+LinkedIn: linkedin.com/in/emilyzhang
+Location: San Francisco, CA
+
+PROFESSIONAL SUMMARY
+Strategic product leader with 10+ years driving innovation in B2B SaaS products. 
+Expert in product strategy, roadmap development, and cross-functional team leadership. 
+Track record of launching products that achieve 40%+ user growth and $10M+ ARR.
+
+SKILLS
+Product Strategy, Roadmap Planning, User Research, A/B Testing, Data Analytics, Agile, Scrum, 
+SQL, Google Analytics, Mixpanel, Figma, JIRA, Stakeholder Management, Go-to-Market Strategy
+
+EXPERIENCE
+
+Senior Product Manager | CloudTech Solutions | 2020 - Present
+- Led product strategy for enterprise SaaS platform serving 500+ companies
+- Launched 3 major product features increasing user engagement by 45%
+- Managed $5M product budget and team of 12 engineers and designers
+- Reduced customer churn by 30% through data-driven feature improvements
+- Achieved 4.8/5.0 customer satisfaction score
+
+Product Manager | DataCorp | 2017 - 2020
+- Owned product lifecycle for analytics dashboard product line
+- Grew MRR from $2M to $8M over 3 years
+- Conducted 100+ user interviews to inform product decisions
+- Launched mobile app with 50K downloads in first 6 months
+
+Associate Product Manager | TechStartup | 2014 - 2017
+- Supported product development for early-stage fintech platform
+- Coordinated releases with engineering and marketing teams
+- Analyzed user behavior data to optimize conversion funnel
+
+EDUCATION
+
+Master of Business Administration (MBA) | Stanford University | 2014
+- Concentration: Product Management and Entrepreneurship
+
+Bachelor of Science in Computer Science | UC Berkeley | 2012
+- Minor in Business Administration
+- Dean's List, GPA 3.9/4.0
+
+CERTIFICATIONS
+- Certified Scrum Product Owner (CSPO)
+- Product Management Certificate - Pragmatic Institute

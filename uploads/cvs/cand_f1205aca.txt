@@ -1,0 +1,31 @@
+
+ALEX RIVERA
+Full Stack Software Engineer
+
+alex.rivera@email.com | (555) 789-0123 | github.com/alexrivera
+
+PROFESSIONAL SUMMARY
+Full-stack engineer with 6+ years building scalable web applications. Expert in React, Node.js, and PostgreSQL. 
+Passionate about clean code, test-driven development, and delivering exceptional user experiences.
+
+SKILLS
+Frontend: React, TypeScript, Next.js, Tailwind CSS, Redux
+Backend: Node.js, Express, Python, Django, FastAPI
+Database: PostgreSQL, MongoDB, Redis
+DevOps: Docker, AWS, CI/CD, Git
+
+EXPERIENCE
+
+Senior Software Engineer | WebTech Solutions | 2021 - Present
+- Architected and deployed microservices platform handling 50K daily users
+- Reduced page load time by 60% through optimization and caching
+- Led team of 4 developers on customer portal rebuild project
+
+Software Engineer | AppStart Inc | 2018 - 2021
+- Developed RESTful APIs serving mobile and web clients
+- Implemented real-time features using WebSocket
+- Improved test coverage from 30% to 90%
+
+EDUCATION
+
+BS Computer Science | University of California, San Diego | 2018

@@ -1,0 +1,59 @@
+
+MARCUS JOHNSON
+Senior Data Scientist
+
+Contact: marcus.johnson@datamail.com | +1 (650) 555-7890
+LinkedIn: linkedin.com/in/marcusjohnson | Portfolio: marcusj-analytics.com
+
+PROFESSIONAL SUMMARY
+Data science leader with 8+ years of experience building ML models and analytics platforms.
+Expert in Python, TensorFlow, and cloud-based data pipelines. Track record of delivering
+data-driven solutions that increased revenue by $15M+ and improved operational efficiency by 40%.
+
+TECHNICAL SKILLS
+Programming: Python, R, SQL, Scala
+ML/AI: TensorFlow, PyTorch, Scikit-learn, Keras, XGBoost
+Big Data: Spark, Hadoop, Kafka, Airflow
+Cloud: AWS (SageMaker, EMR, S3), GCP (BigQuery, Vertex AI)
+Visualization: Tableau, PowerBI, Matplotlib, Plotly
+Databases: PostgreSQL, MongoDB, Redshift, Snowflake
+
+PROFESSIONAL EXPERIENCE
+
+Senior Data Scientist | DataTech Corp | 2020 - Present
+- Led development of recommendation engine serving 5M+ users, increasing engagement by 35%
+- Built fraud detection model achieving 94% accuracy, preventing $8M in losses annually
+- Architected real-time analytics pipeline processing 10TB+ data daily
+- Managed team of 4 junior data scientists and mentored 10+ interns
+- Presented insights to C-suite executives leading to strategic pivots
+
+Data Scientist | AnalyticsCo | 2018 - 2020
+- Developed customer churn prediction model reducing churn by 25%
+- Created automated reporting dashboards used by 200+ stakeholders
+- Optimized pricing algorithm increasing revenue by $3M annually
+- Collaborated with product teams to integrate ML features into core platform
+
+Junior Data Analyst | TechStartup | 2016 - 2018
+- Performed exploratory data analysis on 50M+ records
+- Built A/B testing framework for product experiments
+- Automated ETL processes reducing manual work by 80%
+
+EDUCATION
+
+Master of Science in Data Science | Stanford University | 2016
+- Thesis: "Deep Learning for Time Series Forecasting"
+- GPA: 3.9/4.0
+
+Bachelor of Science in Statistics | UC Berkeley | 2014
+- Minor in Computer Science
+- Dean's List all semesters
+
+CERTIFICATIONS & AWARDS
+- AWS Certified Machine Learning - Specialty
+- Google Professional Data Engineer
+- TensorFlow Developer Certificate
+- Kaggle Competitions Master (Top 1%)
+
+PUBLICATIONS
+- "Scalable ML Pipelines for Production" - Data Science Journal, 2023
+- "Real-time Anomaly Detection at Scale" - MLOps Conference, 2022

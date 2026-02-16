@@ -1,0 +1,53 @@
+
+JESSICA WILLIAMS
+Senior Backend Engineer
+
+Contact: jessica.w@techcorp.com | (650) 555-4321
+LinkedIn: linkedin.com/in/jessicawilliams
+GitHub: github.com/jessicaw
+
+PROFESSIONAL SUMMARY
+Backend engineering specialist with 7+ years building scalable distributed systems.
+Expert in Go, Python, and microservices architecture. Led teams of 6 engineers.
+Reduced system latency by 70% and handled 100K+ RPS in production environments.
+
+TECHNICAL SKILLS
+Languages: Go, Python, Java, TypeScript
+Frameworks: gRPC, FastAPI, Spring Boot
+Databases: PostgreSQL, MongoDB, Redis, Cassandra
+Infrastructure: Kubernetes, Docker, Terraform, AWS
+Tools: Git, CI/CD, Prometheus, Grafana
+
+PROFESSIONAL EXPERIENCE
+
+Senior Backend Engineer | TechCorp Inc | 2020 - Present
+- Architected microservices platform processing 10M+ daily transactions
+- Reduced API response time from 500ms to 150ms through optimization
+- Led migration to Kubernetes saving $200K annually in infrastructure costs
+- Mentored 3 junior engineers and conducted 50+ code reviews monthly
+- Implemented comprehensive monitoring achieving 99.95% uptime SLA
+
+Backend Engineer | CloudStartup | 2018 - 2020
+- Built RESTful and gRPC APIs serving 1M+ active users
+- Optimized database queries reducing load time by 60%
+- Implemented caching layer handling 50K requests per second
+- Developed automated testing framework increasing coverage to 85%
+
+Software Engineer | DevShop LLC | 2016 - 2018
+- Contributed to e-commerce platform with $50M annual revenue
+- Built payment processing integration with Stripe and PayPal
+- Fixed 200+ bugs and improved system reliability
+- Participated in on-call rotation and incident response
+
+EDUCATION
+
+Master of Science in Computer Science | Stanford University | 2016
+Focus: Distributed Systems | GPA: 3.8/4.0
+
+Bachelor of Science in Software Engineering | MIT | 2014
+Dean's List | GPA: 3.9/4.0
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator (CKA)
+- AWS Solutions Architect - Professional
+- Google Cloud Professional Cloud Architect

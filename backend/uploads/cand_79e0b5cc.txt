@@ -1,0 +1,35 @@
+JOHN SMITH
+Senior Software Engineer
+
+Email: john.smith@email.com
+Phone: +1 (555) 123-4567
+LinkedIn: linkedin.com/in/johnsmith
+
+PROFESSIONAL SUMMARY
+Experienced software engineer with 8+ years of expertise in full-stack development, 
+specializing in Python, React, and cloud technologies. Led multiple high-impact projects 
+delivering 40% improvement in system performance.
+
+SKILLS
+Python, JavaScript, React, Node.js, AWS, Docker, Kubernetes, PostgreSQL, MongoDB, 
+REST APIs, GraphQL, CI/CD, Agile, Team Leadership
+
+EXPERIENCE
+
+Senior Software Engineer | Tech Corp Inc. | 2020 - Present
+- Led team of 5 developers building microservices architecture
+- Reduced deployment time by 60% through CI/CD automation
+- Architected real-time data processing pipeline handling 1M+ events/day
+
+Software Engineer | StartupXYZ | 2017 - 2020
+- Built customer-facing React applications serving 100K+ users
+- Implemented RESTful APIs with Python/FastAPI
+- Optimized database queries reducing response time by 45%
+
+Junior Developer | WebAgency | 2015 - 2017
+- Developed responsive websites using HTML, CSS, JavaScript
+- Collaborated with design team on UI/UX improvements
+
+EDUCATION
+Master of Science in Computer Science | MIT | 2015
+Bachelor of Science in Software Engineering | Stanford | 2013

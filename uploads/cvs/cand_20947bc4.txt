@@ -1,0 +1,30 @@
+
+SARAH PARKER
+Senior Data Analyst
+
+Contact: sarah.parker@analytics.com | (650) 555-7777
+LinkedIn: linkedin.com/in/sarahparker
+
+PROFESSIONAL SUMMARY
+Data analyst with 6 years of experience transforming data into actionable insights.
+Expert in SQL, Python, and Tableau. Delivered analytics solutions driving $5M+ in revenue.
+
+SKILLS
+SQL, Python, Tableau, Power BI, Excel, Statistics, Data Visualization, A/B Testing
+
+EXPERIENCE
+
+Senior Data Analyst | DataCorp | 2021 - Present
+- Analyzed customer behavior data to optimize marketing campaigns
+- Built dashboards used by 100+ stakeholders
+- Increased conversion rates by 25% through data-driven recommendations
+
+Data Analyst | TechStartup | 2018 - 2021
+- Performed statistical analysis on user engagement metrics
+- Created automated reporting system saving 20 hours per week
+- Collaborated with product team on feature prioritization
+
+EDUCATION
+
+MS Data Science | UC Berkeley | 2018
+BS Mathematics | Stanford University | 2016

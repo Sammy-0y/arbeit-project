@@ -1,0 +1,43 @@
+
+JOHN DOE
+Senior Full Stack Developer
+
+Email: john.doe@example.com
+Phone: +1 555-123-4567
+LinkedIn: linkedin.com/in/johndoe
+
+PROFESSIONAL SUMMARY
+Experienced software engineer with 8+ years building scalable web applications using modern technologies. 
+Proven track record of leading development teams and delivering high-quality products.
+
+SKILLS
+JavaScript, TypeScript, React, Node.js, Python, Django, PostgreSQL, MongoDB, AWS, Docker, Kubernetes, 
+CI/CD, Git, Agile, Microservices
+
+EXPERIENCE
+
+Senior Software Engineer | TechCorp Inc | 2020 - Present
+- Led development of cloud-native microservices platform serving 1M+ users
+- Reduced API response time by 40% through optimization and caching strategies
+- Mentored team of 5 junior developers
+- Implemented CI/CD pipeline reducing deployment time from 2 hours to 15 minutes
+
+Software Engineer | StartupCo | 2018 - 2020
+- Built real-time chat application using WebSocket and Redis
+- Developed RESTful APIs handling 10K+ requests per second
+- Improved test coverage from 40% to 85%
+
+Junior Developer | DevShop | 2016 - 2018
+- Contributed to e-commerce platform with 50K daily active users
+- Implemented payment gateway integration
+- Fixed 100+ bugs and improved code quality
+
+EDUCATION
+
+Bachelor of Science in Computer Science | MIT | 2016
+- GPA: 3.8/4.0
+- Dean's List all semesters
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect
+- Kubernetes Administrator (CKA)
