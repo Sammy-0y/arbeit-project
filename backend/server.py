@@ -1309,8 +1309,8 @@ def calculate_fit_score(candidate_data: dict, job_data: dict) -> int:
         exp_match_score = max((candidate_years / min_years) * 35, 10) if min_years > 0 else 20
     
     # Role Alignment (20% weight)
-    candidate_role = candidate_data.get('current_role', '').lower()
-    job_title = job_data.get('title', '').lower()
+    candidate_role = (candidate_data.get('current_role') or "").lower()
+    job_title = (job_data.get('title') or "").lower()
     
     # Check for keyword matches
     job_keywords = set(job_title.replace('-', ' ').replace('/', ' ').split())
