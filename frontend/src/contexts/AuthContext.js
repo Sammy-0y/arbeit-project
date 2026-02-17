@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
       setLoading(false);
     }
   }, [token]);
-
+  
   const fetchCurrentUser = async () => {
     try {
       const response = await axios.get(`${API}/auth/me`, {
