@@ -185,6 +185,8 @@ async def send_interview_booking_notification(
 
 # Create the main app
 app = FastAPI()
+app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
+
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
