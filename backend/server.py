@@ -1248,6 +1248,12 @@ Generate ACCURATE JSON response.'''
 
 def calculate_fit_score(candidate_data: dict, job_data: dict) -> int:
     """Calculate fit score based on skills, experience, and role alignment"""
+
+    print("DEBUG JOB DATA:", job_data)
+    print("DEBUG JOB REQUIRED SKILLS:", job_data.get("required_skills"))
+    print("DEBUG CANDIDATE SKILLS:", candidate_data.get("skills"))
+
+    """Calculate fit score based on skills, experience, and role alignment"""
     
     # Skills Match (45% weight)
     candidate_skills = set([s.lower().strip() for s in candidate_data.get('skills', [])])
