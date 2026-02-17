@@ -185,12 +185,10 @@ async def send_interview_booking_notification(
 
 # Create the main app
 app = FastAPI()
-app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
-
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
-
+app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 # ============ MODELS ============
 
 class UserRole(str):
@@ -1972,6 +1970,16 @@ async def change_candidate_password(
     )
     
     return {"message": "Password changed successfully"}
+
+@api_router.get("/public/jobs")
+async def get_public_jobs():
+    jobs = await db.jobs.find(
+        {"status": "ACTIVE"},
+        {"_id": 0}
+    ).to_list(100)
+
+    return jobs
+
 
 
 # ============ ADMIN: CANDIDATE PORTAL MANAGEMENT ============
@@ -6859,3 +6867,4 @@ logger = logging.getLogger(__name__)
 @app.on_event("shutdown")
 async def shutdown_db_client():
     client.close()
+
