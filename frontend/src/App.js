@@ -13,6 +13,7 @@ import { ClientDetail } from './pages/ClientDetail';
 import { JobsList } from './pages/JobsList';
 import { JobDetail } from './pages/JobDetail';
 import { JobForm } from './pages/JobForm';
+import PublicJobs from "./PublicJobs";
 import { CandidatesList } from './pages/CandidatesList';
 import { CandidateDetail } from './pages/CandidateDetail';
 import { CandidateStoryView } from './pages/CandidateStoryView';
@@ -211,6 +212,7 @@ function App() {
               <Route path="audit" element={<AuditLogs />} />
               <Route index element={<Navigate to="roles" replace />} />
             </Route>
+            <Route path="/jobs" element={<PublicJobs />} />
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
           </Routes>
         </CandidateAuthProvider>
