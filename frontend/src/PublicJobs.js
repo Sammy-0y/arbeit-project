@@ -5,7 +5,7 @@ function PublicJobs() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/api/public/jobs")
+    fetch("https://arbeit-project.onrender.com/api/public/jobs")
       .then(res => res.json())
       .then(data => {
         setJobs(data);
