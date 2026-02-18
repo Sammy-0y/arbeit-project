@@ -122,6 +122,12 @@ export const AllCandidates = () => {
             <Badge variant="secondary" className="bg-white/20 text-white">
               {filteredCandidates.length} candidates
             </Badge>
+            <Button
+              onClick={() => navigate("/add-candidate")}
+              className="bg-white text-blue-900 hover:bg-blue-100"
+              >
+             + Add Candidate
+             </Button>
           </div>
         </div>
       </header>

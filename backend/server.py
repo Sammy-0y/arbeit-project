@@ -3229,7 +3229,7 @@ async def create_job(
         "notice_period_days": job_data.notice_period_days,
         "required_skills": job_data.required_skills,
         "description": job_data.description,
-        "status": job_data.status,
+        "status": (job_data.status or "ACTIVE").upper(),
         "created_at": datetime.now(timezone.utc).isoformat(),
         "created_by": current_user["email"]
     }
