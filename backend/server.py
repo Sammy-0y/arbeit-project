@@ -2007,11 +2007,21 @@ async def change_candidate_password(
 @api_router.get("/public/jobs")
 async def get_public_jobs():
     jobs = await db.jobs.find(
-        {"status": {"$regex": "^active$", "$options": "i"}},
+        {"status": "Active"},
         {"_id": 0}
     ).to_list(100)
 
     return jobs
+
+
+@api_router.get("/public/jobs/{job_id}")
+async def get_public_job(job_id: str):
+    job = await db.jobs.find_one({"job_id": job_id}, {"_id": 0})
+
+    if not job:
+        raise HTTPException(status_code=404, detail="Not Found")
+
+    return job
 
 
 
