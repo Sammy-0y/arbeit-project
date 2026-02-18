@@ -6,7 +6,7 @@ function PublicJobDetail() {
   const [job, setJob] = useState(null);
 
   useEffect(() => {
-    fetch(`https://arbeit-project.onrender.com/api/public/jobs/${jobId}`)
+    fetch(`/api/public/jobs/${jobId}`)
       .then(res => res.json())
       .then(data => setJob(data));
   }, [jobId]);
@@ -19,8 +19,9 @@ function PublicJobDetail() {
 
       <h2>{job.title}</h2>
       <p><strong>Location:</strong> {job.location}</p>
-      <p><strong>Type:</strong> {job.employmentType}</p>
-      <p><strong>Skills:</strong> {job.skills?.join(", ")}</p>
+      <p><strong>Type:</strong> {job.employment_type}</p>
+      <p><strong>Skills:</strong> {job.required_skills?.join(", ")}</p>
+
 
       <h3>Description</h3>
       <p>{job.description}</p>
