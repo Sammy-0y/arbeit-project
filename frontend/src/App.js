@@ -6,6 +6,7 @@ import { CandidateAuthProvider, useCandidateAuth } from './contexts/CandidateAut
 import { ProtectedRoute } from './components/ProtectedRoute';
 import { Login } from './pages/Login';
 import { AdminDashboard } from './pages/AdminDashboard';
+import PublicJobDetail from "./PublicJobDetail";
 import { RecruiterDashboard } from './pages/RecruiterDashboard';
 import { ClientDashboard } from './pages/ClientDashboard';
 import { ClientsList } from './pages/ClientsList';
@@ -213,6 +214,7 @@ function App() {
               <Route index element={<Navigate to="roles" replace />} />
             </Route>
             <Route path="/careers" element={<PublicJobs />} />
+            <Route path="/careers/:jobId" element={<PublicJobDetail />} />
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
           </Routes>
         </CandidateAuthProvider>
