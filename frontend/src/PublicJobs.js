@@ -49,7 +49,7 @@ function PublicJobs() {
                 borderRadius: "6px",
                 cursor: "pointer"
               }}
-              onClick={() => window.location.href = `/careers/${job.job_id}`}
+              onClick={() => window.location.href = `/careers/${job._id}`}
             >
               View Details
             </button>
