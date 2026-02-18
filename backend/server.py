@@ -2007,7 +2007,7 @@ async def change_candidate_password(
 @api_router.get("/public/jobs")
 async def get_public_jobs():
     jobs = await db.jobs.find(
-        {"status": {"$regex": "^active$", "$options": "i"}}
+        {"status": {"$regex": "^active$", "$options": "i"}},
         {"_id": 0}
     ).to_list(100)
 
