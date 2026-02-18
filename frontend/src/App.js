@@ -212,7 +212,7 @@ function App() {
               <Route path="audit" element={<AuditLogs />} />
               <Route index element={<Navigate to="roles" replace />} />
             </Route>
-            <Route path="/jobs" element={<PublicJobs />} />
+            <Route path="/careers" element={<PublicJobs />} />
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
           </Routes>
         </CandidateAuthProvider>
