@@ -188,6 +188,39 @@ app = FastAPI()
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
+from fastapi import UploadFile, File, Form
+import uuid
+import shutil
+
+@api_router.post("/public/apply")
+async def apply_job(
+    job_id: str = Form(...),
+    name: str = Form(...),
+    email: str = Form(...),
+    resume: UploadFile = File(...)
+):
+    # Generate unique filename
+    filename = f"{uuid.uuid4()}_{resume.filename}"
+    file_path = f"uploads/{filename}"
+
+    # Save resume file
+    with open(file_path, "wb") as buffer:
+        shutil.copyfileobj(resume.file, buffer)
+
+    # Save candidate data in database
+    candidate_data = {
+        "candidate_id": str(uuid.uuid4()),
+        "job_id": job_id,
+        "name": name,
+        "email": email,
+        "resume_url": f"/uploads/{filename}",
+        "status": "APPLIED"
+    }
+
+    await db.candidates.insert_one(candidate_data)
+
+    return {"message": "Application submitted successfully"}
+
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 # ============ MODELS ============
 
